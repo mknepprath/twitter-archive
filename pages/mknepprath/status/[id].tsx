@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import tweets from "../../../../tweet";
+import tweets from "../../../tweet";
 
 const Tweet = () => {
   const router = useRouter();
